@@ -23,7 +23,7 @@ def call(Map config=[:]){
     
         def date = new Date()
         def sdf = new SimpleDateFormat("MM/dd/yyyy HH:mm:ss")
-        writer.writeLine("Date and Time IS: " + sdf.format(date));
+        writer.writeLine("Date and Time is: " + sdf.format(date));
     
         writer.writeLine("Build Number is: ${BUILD_NUMBER}");
         
